@@ -30,9 +30,13 @@ print("\nTeste de hipótese:")
 # Calculando a probabilidade teórica para cada lançamento
 probabilidade_teoria = np.array([1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1]) / 36
 
+# Imprimindo a hipótese nula (H0)
+print("Hipótese nula (H0): A proporção de cada resultado é igual à probabilidade teórica.")
+print(f"Probabilidade teórica para cada lançamento: {probabilidade_teoria}")
+
 # Calculando a frequência relativa dos resultados da simulação
 frequencia_relativa = ocorrencias / np.sum(ocorrencias)
 
 # Imprimindo as probabilidades teóricas e as frequências relativas
 for i in range(2, 13):
-    print(f"Probabilidade teórica de {i}: {probabilidade_teoria[i-2]:.4f}, Frequência relativa: {frequencia_relativa[i-2]:.4f}"
+    print(f"Probabilidade teórica de {i}: {probabilidade_teoria[i-2]:.4f}, Frequência relativa: {frequencia_relativa[i-2]:.4f}")
