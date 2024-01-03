@@ -1,4 +1,4 @@
-Projeto: Simulação de Jogo de Dados
+Projeto: Simulação de Jogo de Dados - Santander Coders
 
 Descrição:
 Você tem a tarefa de criar uma simulação para um jogo de dados. Essa simulação tem como objetivo reunir estatísticas para analisar a justiça do jogo, possíveis resultados e fazer previsões sobre jogos futuros.
@@ -21,13 +21,5 @@ Desafios do Projeto:
 
     Teste de Hipótese:
         Faça um teste de hipóteses:
-            Supondo um jogo justo (ou seja, todos os lançamentos são igualmente prováveis), o resultado da sua simulação coincide com essa suposição? Por que sim ou por que não?
-            O que isso significa para um jogador do jogo de dados?
-
-Entregáveis:
-Enviar por e-mail (matheusfiiorin) seu nome e o link do repositório no seu GitHub, contendo:
-
-    Um script Python (arquivo .py ou .ipynb) com a sua solução para os desafios apresentados.
-
-Deadline:
-[Inserir a data limite aqui]
+        Supondo um jogo justo (ou seja, todos os lançamentos são igualmente prováveis), o resultado da sua simulação coincide com essa suposição? Por que sim ou por que não?
+        O que isso significa para um jogador do jogo de dados?
